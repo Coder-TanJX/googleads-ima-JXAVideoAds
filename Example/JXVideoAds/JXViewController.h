@@ -1,9 +1,9 @@
 //
 //  JXViewController.h
-//  JXVideoAds
+//  ITAGoogleVideoAds
 //
-//  Created by 谭家祥 on 06/27/2019.
-//  Copyright (c) 2019 谭家祥. All rights reserved.
+//  Created by tanjiaxiang on 06/19/2019.
+//  Copyright (c) 2019 tanjiaxiang. All rights reserved.
 //
 
 @import UIKit;

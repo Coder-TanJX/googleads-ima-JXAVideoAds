@@ -1,6 +1,6 @@
 # JXVideoAds
 
-[![CI Status](https://img.shields.io/travis/谭家祥/JXVideoAds.svg?style=flat)](https://travis-ci.org/谭家祥/JXVideoAds)
+[![CI Status](https://img.shields.io/travis/Code-TanJX/JXVideoAds.svg?style=flat)](https://travis-ci.org/Code-TanJX/JXVideoAds)
 [![Version](https://img.shields.io/cocoapods/v/JXVideoAds.svg?style=flat)](https://cocoapods.org/pods/JXVideoAds)
 [![License](https://img.shields.io/cocoapods/l/JXVideoAds.svg?style=flat)](https://cocoapods.org/pods/JXVideoAds)
 [![Platform](https://img.shields.io/cocoapods/p/JXVideoAds.svg?style=flat)](https://cocoapods.org/pods/JXVideoAds)
@@ -22,7 +22,7 @@ pod 'JXVideoAds'
 
 ## Author
 
-谭家祥, 346417517@qq.com
+Code-TanJX, 346417517@qq.com
 
 ## License
 

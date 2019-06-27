@@ -1,13 +1,16 @@
-use_frameworks!
+#use_frameworks!
 
 platform :ios, '8.0'
 
 target 'JXVideoAds_Example' do
   pod 'JXVideoAds', :path => '../'
 
-  target 'JXVideoAds_Tests' do
-    inherit! :search_paths
+#  target 'JXVideoAds' do
+#    inherit! :search_paths
+#    pod 'GoogleAds-IMA-iOS-SDK'
+#
+#  end
 
-    
-  end
 end
+
+

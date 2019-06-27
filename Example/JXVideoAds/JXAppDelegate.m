@@ -2,8 +2,8 @@
 //  JXAppDelegate.m
 //  JXVideoAds
 //
-//  Created by 谭家祥 on 06/27/2019.
-//  Copyright (c) 2019 谭家祥. All rights reserved.
+//  Created by Code-TanJX on 06/27/2019.
+//  Copyright (c) 2019 Code-TanJX. All rights reserved.
 //
 
 #import "JXAppDelegate.h"

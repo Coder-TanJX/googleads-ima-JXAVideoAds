@@ -38,6 +38,16 @@
                ReferencedContainer = "container:JXVideoAds.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1F22D3B822C4BD6D0015BE63"
+               BuildableName = "JXVideoAdsTests.xctest"
+               BlueprintName = "JXVideoAdsTests"
+               ReferencedContainer = "container:JXVideoAds.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
