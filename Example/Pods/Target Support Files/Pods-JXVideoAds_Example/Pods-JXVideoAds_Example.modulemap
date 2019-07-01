@@ -1,0 +1,6 @@
+framework module Pods_JXVideoAds_Example {
+  umbrella header "Pods-JXVideoAds_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1 @@
+../../../../../JXVideoAds/Classes/Common/JXAVideoTool.h

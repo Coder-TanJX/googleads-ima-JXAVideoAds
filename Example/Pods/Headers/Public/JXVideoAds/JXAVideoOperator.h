@@ -1,0 +1,1 @@
+../../../../../JXVideoAds/Classes/API/JXAVideoOperator.h

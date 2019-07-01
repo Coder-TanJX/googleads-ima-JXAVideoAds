@@ -1,0 +1,6 @@
+framework module JXVideoAds {
+  umbrella header "JXVideoAds-umbrella.h"
+
+  export *
+  module * { export * }
+}

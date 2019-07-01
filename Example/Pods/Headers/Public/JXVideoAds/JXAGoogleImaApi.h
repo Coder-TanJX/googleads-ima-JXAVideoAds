@@ -1,0 +1,1 @@
+../../../../../JXVideoAds/Classes/GoogleIma/JXAGoogleImaApi.h

@@ -1,0 +1,40 @@
+framework module GoogleInteractiveMediaAds {
+  umbrella header "GoogleInteractiveMediaAds.h"
+
+  export *
+  module * { export * }
+
+  link framework "AdSupport"
+  link framework "AVFoundation"
+  link framework "CoreGraphics"
+  link framework "CoreMedia"
+  link framework "Foundation"
+  link framework "MediaPlayer"
+  link framework "SystemConfiguration"
+  link framework "UIKit"
+  link framework "WebKit"
+
+  header "IMAAVPlayerContentPlayhead.h"
+  header "IMAAVPlayerVideoDisplay.h"
+  header "IMAAd.h"
+  header "IMAAdDisplayContainer.h"
+  header "IMAAdError.h"
+  header "IMAAdEvent.h"
+  header "IMAAdPlaybackInfo.h"
+  header "IMAAdPodInfo.h"
+  header "IMAAdsLoader.h"
+  header "IMAAdsManager.h"
+  header "IMAAdsRenderingSettings.h"
+  header "IMAAdsRequest.h"
+  header "IMACompanionAdSlot.h"
+  header "IMAContentPlayhead.h"
+  header "IMACuepoint.h"
+  header "IMALiveStreamRequest.h"
+  header "IMAPictureInPictureProxy.h"
+  header "IMASettings.h"
+  header "IMAStreamManager.h"
+  header "IMAStreamRequest.h"
+  header "IMAUiElements.h"
+  header "IMAVODStreamRequest.h"
+  header "IMAVideoDisplay.h"
+}

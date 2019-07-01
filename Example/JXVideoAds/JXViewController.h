@@ -1,9 +1,9 @@
 //
 //  JXViewController.h
-//  JXVideoAds
+//  ITAGoogleVideoAds
 //
-//  Created by bboyXFX on 06/30/2019.
-//  Copyright (c) 2019 bboyXFX. All rights reserved.
+//  Created by tanjiaxiang on 06/19/2019.
+//  Copyright (c) 2019 tanjiaxiang. All rights reserved.
 //
 
 @import UIKit;
