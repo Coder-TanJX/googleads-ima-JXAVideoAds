@@ -1,29 +1,32 @@
 PODS:
   - GoogleAds-IMA-iOS-SDK (3.6.1)
-  - JXVideoAds (0.1.0):
-    - JXVideoAds/API (= 0.1.0)
-    - JXVideoAds/Common (= 0.1.0)
-    - JXVideoAds/GoogleIma (= 0.1.0)
-  - JXVideoAds/API (0.1.0):
+  - JXVideoAds (0.1.2):
+    - JXVideoAds/API (= 0.1.2)
+    - JXVideoAds/Common (= 0.1.2)
+    - JXVideoAds/GoogleIma (= 0.1.2)
+  - JXVideoAds/API (0.1.2):
     - JXVideoAds/Common
     - JXVideoAds/GoogleIma
-  - JXVideoAds/Common (0.1.0):
+  - JXVideoAds/Common (0.1.2):
     - JXVideoAds/GoogleIma
-  - JXVideoAds/GoogleIma (0.1.0):
+  - JXVideoAds/GoogleIma (0.1.2):
     - GoogleAds-IMA-iOS-SDK
 
 DEPENDENCIES:
-  - JXVideoAds
+  - JXVideoAds (from `../`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - GoogleAds-IMA-iOS-SDK
-    - JXVideoAds
+
+EXTERNAL SOURCES:
+  JXVideoAds:
+    :path: "../"
 
 SPEC CHECKSUMS:
   GoogleAds-IMA-iOS-SDK: 5825cb7d5f6004618527828936a077e118da556e
-  JXVideoAds: 324e38466a35f8de1c7b331a4584273c1beaabc4
+  JXVideoAds: 9d16f871bf6e34328f25820d196a83bf8865e76d
 
-PODFILE CHECKSUM: 1b667fff41ab9723dacc076a51130d20ca204de1
+PODFILE CHECKSUM: 440a299b177013645094da752b032c33ab60f1f8
 
 COCOAPODS: 1.6.1
