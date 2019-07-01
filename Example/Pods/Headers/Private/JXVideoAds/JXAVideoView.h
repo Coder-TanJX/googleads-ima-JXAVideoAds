@@ -1,1 +1,0 @@
-../../../../../JXVideoAds/Classes/API/JXAVideoView.h

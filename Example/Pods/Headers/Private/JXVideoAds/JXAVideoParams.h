@@ -1,1 +1,0 @@
-../../../../../JXVideoAds/Classes/Common/JXAVideoParams.h

@@ -1,1 +1,0 @@
-../../../../../JXVideoAds/Classes/GoogleIma/JXAAdsRenderingSettings.h

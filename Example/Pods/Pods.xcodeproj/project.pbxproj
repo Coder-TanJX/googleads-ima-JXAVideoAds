@@ -19,45 +19,45 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		02244DBA8A416C6C43D0CD32A3A8465D /* JXAVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = D709B432C3104776867C8436460B813E /* JXAVideoView.m */; };
-		1B95E9C399731EBA9EF49461F515EF4B /* JXAWebOpenerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CACBA4D529FFBFDDD2A5416DDD4654B /* JXAWebOpenerDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1D0B2862EA73AADB07B1F49838A41584 /* JXAVideoParams.h in Headers */ = {isa = PBXBuildFile; fileRef = 914B8D4A3C0CC494E061F5A187A99711 /* JXAVideoParams.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1ED2F17496658FAA07AFAFF3ACD7C363 /* JXAPictureInPictureProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 29DB9CC150845A92FDE1F17064027489 /* JXAPictureInPictureProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2D2E02802F7C834E678CB1A7B064714C /* JXAVideoTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E642792727CCA1F903B73D099B1510 /* JXAVideoTool.m */; };
-		3128F7A7F1FE92150E8BD04E7364C36F /* JXAVideoOperator.h in Headers */ = {isa = PBXBuildFile; fileRef = FBC7F041715B405E4AB17DA70F8C6DB5 /* JXAVideoOperator.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		34EE5F7569629478485F3640BC0823D5 /* JXAAdsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D8CED4C1A322F990D6A09C1376C2F05C /* JXAAdsManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		35F7E3BA1445A626629693418A6C43AB /* JXAAdsLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEE3C7C542DE58A1F80AAC120B941BA /* JXAAdsLoader.m */; };
-		36DFF68DE2AF0C8AF0EB24DD992BF3B5 /* JXAAdsRenderingSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D25E23F822E53119D9247ADFF1112F /* JXAAdsRenderingSettings.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		38B609BEDA6EF3BA60570C79A65D01BE /* JXAVideoAds+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE34DBC0582903CCCDCF85F6678D21 /* JXAVideoAds+Extension.m */; };
-		3F9DB9F34703A14CB8A2E8CB6732F1B8 /* JXASettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 26FADDFD462B90218494841F3BFA05E2 /* JXASettings.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3FE30590B94EA71DB3B46EAAE846C070 /* JXAAdsLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D71A46F46B913067D738EDFA8C07E61 /* JXAAdsLoader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		40AE20E470237F4563A80ABD3EAA9F7C /* JXAVideoOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9957650E0C81587704F2F3EE48C0C09E /* JXAVideoOperator.m */; };
-		49BDEE7715F889FA8D2432CB1322277F /* JXAAdDisplayContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E6FB46C953B0E71D51097508C53069 /* JXAAdDisplayContainer.m */; };
-		4B997A08733074520745B90EA4505F82 /* JXAVideoParamsBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4E28F8F16EC75543780C359DBA78B1 /* JXAVideoParamsBuilder.m */; };
-		5DD4998940AE33E70590BAF591CE71AF /* JXAAVPlayerVideoDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8C93388310CE786FA3A0014EA10560 /* JXAAVPlayerVideoDisplay.m */; };
-		63218549003EBAA32AAB988943DD49F8 /* JXAAdsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D323A79AD15F6B41FBE9435A5AEA69C /* JXAAdsRequest.m */; };
-		69DE62C985C66E8F32A3667E23A76CEC /* JXAAdDisplayContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DC02861539B20A554296BC4663604FD /* JXAAdDisplayContainer.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		71DE9088D320ACA5545D8CC9EB2E03E0 /* JXAPictureInPictureProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 156BECBAEE2101305B9BB8648C0E46A3 /* JXAPictureInPictureProxy.m */; };
-		7425CD76C0A3AFDCC55A2BF64297D2F5 /* JXAVideoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 052B5D78E3BEB589DFD6C1D724A09121 /* JXAVideoView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7EF06D5746DF37036781A91F32C4E930 /* JXAVideoAds.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2C192E46439B0EFFC50A3E7363AE64 /* JXAVideoAds.m */; };
-		7FFA48E7F347E8FD184A9FB382857313 /* JXAVideoParams.m in Sources */ = {isa = PBXBuildFile; fileRef = C9916265C87F5C031B981B11B7271BC5 /* JXAVideoParams.m */; };
-		8C44570644E4E287C47BF6353C98C796 /* JXAVideoTool.h in Headers */ = {isa = PBXBuildFile; fileRef = FD9466C0D826A08377087AB10EDAFE99 /* JXAVideoTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9712E926F090BC251950025F6108FD4E /* JXAAdsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE380FBB0A73842B09627C6DE0B6AEE /* JXAAdsManager.m */; };
-		A77F2947ECC802920D4E97B8FAD59495 /* JXAVideoParamsBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 088ED923C63EABC1C510E47536653C48 /* JXAVideoParamsBuilder.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AD3FC1CB2D4AABA2E9A0AD353497519F /* JXASettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C30A749694FCF0D64871B468142EC70 /* JXASettings.m */; };
-		B0221EE1D246407C9262703B15CEB0BC /* JXAVideoAds.h in Headers */ = {isa = PBXBuildFile; fileRef = 8688DD17338376D1AE91FB7CA9BA55AA /* JXAVideoAds.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B9242B2989C6A8DF55CBBE76D6EC76B2 /* JXVideoAds-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B2F81B3ED7DF0B511FFBBDCE20B20E /* JXVideoAds-dummy.m */; };
-		DC4D1027D2C33AA45538088F75CDE76B /* JXAVideoAds+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 760CD4D60D0258CE52D22311226386B0 /* JXAVideoAds+Extension.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DDE6A6FB6A347AA9FC9F4AB0B078E8C8 /* JXAAVPlayerContentPlayhead.h in Headers */ = {isa = PBXBuildFile; fileRef = 9519E7EB1CC18D7FEAB4A255D3DE5B2B /* JXAAVPlayerContentPlayhead.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E0B1C0945CEE27DD0AEC10233B53F576 /* JXAAVPlayerVideoDisplay.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FC2FBCE06319C2E9E6D0E2AB55F777A /* JXAAVPlayerVideoDisplay.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E105D8955DD4208CE41D73503AB99F12 /* JXACompanionAdSlot.m in Sources */ = {isa = PBXBuildFile; fileRef = 493C33CB599675C0C7864414420ECFAA /* JXACompanionAdSlot.m */; };
+		02244DBA8A416C6C43D0CD32A3A8465D /* JXAVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F914998A8CA33456811BBA3229607 /* JXAVideoView.m */; };
+		1B95E9C399731EBA9EF49461F515EF4B /* JXAWebOpenerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C8FEEC919C006FB85CEDDD12EA94F9 /* JXAWebOpenerDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1D0B2862EA73AADB07B1F49838A41584 /* JXAVideoParams.h in Headers */ = {isa = PBXBuildFile; fileRef = B0E4CD99C47DB523F010EA24FD4878B9 /* JXAVideoParams.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1ED2F17496658FAA07AFAFF3ACD7C363 /* JXAPictureInPictureProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = CA78D5F771432B08945379381E20A328 /* JXAPictureInPictureProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2D2E02802F7C834E678CB1A7B064714C /* JXAVideoTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 38316028FB9BDC826B24B27E0AB29F65 /* JXAVideoTool.m */; };
+		3128F7A7F1FE92150E8BD04E7364C36F /* JXAVideoOperator.h in Headers */ = {isa = PBXBuildFile; fileRef = 793F4DB7B98FB3BE241F9766EE183ECE /* JXAVideoOperator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		34EE5F7569629478485F3640BC0823D5 /* JXAAdsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A9F0E6BCF4AF6188686A32A23B34119 /* JXAAdsManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		35F7E3BA1445A626629693418A6C43AB /* JXAAdsLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = A98B01C298BDA54959A64553222D0C4C /* JXAAdsLoader.m */; };
+		36DFF68DE2AF0C8AF0EB24DD992BF3B5 /* JXAAdsRenderingSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = BBEAA053532BD7565E2E0B66C8F906C5 /* JXAAdsRenderingSettings.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		38B609BEDA6EF3BA60570C79A65D01BE /* JXAVideoAds+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 261FF1F6895017298181A7370CE24443 /* JXAVideoAds+Extension.m */; };
+		3F9DB9F34703A14CB8A2E8CB6732F1B8 /* JXASettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F1C58EFA65EF08C7B2A0F3131658BF8 /* JXASettings.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3FE30590B94EA71DB3B46EAAE846C070 /* JXAAdsLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 67E937CBE0863C89393B349691DB27B4 /* JXAAdsLoader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		40AE20E470237F4563A80ABD3EAA9F7C /* JXAVideoOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = 303C5FE34977B07DB892B1AEE3FBA1FD /* JXAVideoOperator.m */; };
+		49BDEE7715F889FA8D2432CB1322277F /* JXAAdDisplayContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE6C9A013AD067A83FA0EF8439EB8B1 /* JXAAdDisplayContainer.m */; };
+		4B997A08733074520745B90EA4505F82 /* JXAVideoParamsBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = A14211D019791CA48584A7CF4735F2D1 /* JXAVideoParamsBuilder.m */; };
+		5DD4998940AE33E70590BAF591CE71AF /* JXAAVPlayerVideoDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A0D007AC3D05A80EF5FF8F81549F30 /* JXAAVPlayerVideoDisplay.m */; };
+		63218549003EBAA32AAB988943DD49F8 /* JXAAdsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BE3DC844D639498A369ECD684A2C40 /* JXAAdsRequest.m */; };
+		69DE62C985C66E8F32A3667E23A76CEC /* JXAAdDisplayContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B842329763FAF4B355DC87FD15BBC83 /* JXAAdDisplayContainer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		71DE9088D320ACA5545D8CC9EB2E03E0 /* JXAPictureInPictureProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = B35FBB2DCA4B531025F9C78143649618 /* JXAPictureInPictureProxy.m */; };
+		7425CD76C0A3AFDCC55A2BF64297D2F5 /* JXAVideoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C563CE0C60CC2ABEF115188A6FE41FA /* JXAVideoView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7EF06D5746DF37036781A91F32C4E930 /* JXAVideoAds.m in Sources */ = {isa = PBXBuildFile; fileRef = B62EFEF914FDABFEB219BD975BEE0945 /* JXAVideoAds.m */; };
+		7FFA48E7F347E8FD184A9FB382857313 /* JXAVideoParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 46179926BAD946C7638FB30EF0C60F55 /* JXAVideoParams.m */; };
+		8C44570644E4E287C47BF6353C98C796 /* JXAVideoTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D19EF29D673ACBE901F24ADF965FB84 /* JXAVideoTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9712E926F090BC251950025F6108FD4E /* JXAAdsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBD1A881CD6928D9552C8F87939DD48 /* JXAAdsManager.m */; };
+		A77F2947ECC802920D4E97B8FAD59495 /* JXAVideoParamsBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = A7A3A277CADE4760F7A32EA758005BA8 /* JXAVideoParamsBuilder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AD3FC1CB2D4AABA2E9A0AD353497519F /* JXASettings.m in Sources */ = {isa = PBXBuildFile; fileRef = C32E8734DFC2C578A628B42B87FB3F52 /* JXASettings.m */; };
+		B0221EE1D246407C9262703B15CEB0BC /* JXAVideoAds.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D1D1464B503D755FE957D5AC31EC3E1 /* JXAVideoAds.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B9242B2989C6A8DF55CBBE76D6EC76B2 /* JXVideoAds-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1759C4BCA84AA7CA294681BBA4A788 /* JXVideoAds-dummy.m */; };
+		DC4D1027D2C33AA45538088F75CDE76B /* JXAVideoAds+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A2F5CB0F2AB3EE6B6AE32E0B5401155 /* JXAVideoAds+Extension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DDE6A6FB6A347AA9FC9F4AB0B078E8C8 /* JXAAVPlayerContentPlayhead.h in Headers */ = {isa = PBXBuildFile; fileRef = E1CAB9BEFCD7AD546B4DA145CF2D0C3E /* JXAAVPlayerContentPlayhead.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E0B1C0945CEE27DD0AEC10233B53F576 /* JXAAVPlayerVideoDisplay.h in Headers */ = {isa = PBXBuildFile; fileRef = A1023C3FE0C8279255D1F62590119E15 /* JXAAVPlayerVideoDisplay.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E105D8955DD4208CE41D73503AB99F12 /* JXACompanionAdSlot.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2CEA6D4FE92F19F2DF9C3AAAF71DAE /* JXACompanionAdSlot.m */; };
 		E191F60A468F799618340BADB05E83CE /* Pods-JXVideoAds_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CDE468E8B692EFA6B3B17F026D4511 /* Pods-JXVideoAds_Example-dummy.m */; };
-		E8FF0F4204737BB6219EC8BA01117C14 /* JXAAVPlayerContentPlayhead.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F20628B4F2DC781A151825BA9DF0E43 /* JXAAVPlayerContentPlayhead.m */; };
-		EF8642CA16DB2A31C8EC2D3B24AA138E /* JXAAdsRenderingSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 4048B2A234C01E525D4758656BBFF3D1 /* JXAAdsRenderingSettings.m */; };
-		F083DF2F96E0C2460D1729B2AA991D7E /* JXACompanionAdSlot.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AB2823B915E5F500CF76139BAD8A3C8 /* JXACompanionAdSlot.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F127E21D91FDDDF83ED5D098FE0AAD47 /* JXAGoogleImaApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 49218AB7ACC5B26F6EF7D918674EE5B7 /* JXAGoogleImaApi.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F54FC0101237219B86DD4F3A2300F1EA /* JXAAdsRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D329B27BC14615D5906C32B9203AD42B /* JXAAdsRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F935DDACBCB0338A8A5AD358B9FD9A56 /* JXAVideoConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = 83453681249AE90DD1BABFC2973A8ECC /* JXAVideoConstant.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E8FF0F4204737BB6219EC8BA01117C14 /* JXAAVPlayerContentPlayhead.m in Sources */ = {isa = PBXBuildFile; fileRef = 8983B497B208CCD507EB5F1B9564F84F /* JXAAVPlayerContentPlayhead.m */; };
+		EF8642CA16DB2A31C8EC2D3B24AA138E /* JXAAdsRenderingSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF9006E3A66DAE2756E3FA5E3180655 /* JXAAdsRenderingSettings.m */; };
+		F083DF2F96E0C2460D1729B2AA991D7E /* JXACompanionAdSlot.h in Headers */ = {isa = PBXBuildFile; fileRef = 91477F1DDB10E3E773619B3AEF32483E /* JXACompanionAdSlot.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F127E21D91FDDDF83ED5D098FE0AAD47 /* JXAGoogleImaApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DF006DA8E359A7A510EE2E24EC9384 /* JXAGoogleImaApi.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F54FC0101237219B86DD4F3A2300F1EA /* JXAAdsRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FA5CDA545D5EE85283797BB02B450F3 /* JXAAdsRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F935DDACBCB0338A8A5AD358B9FD9A56 /* JXAVideoConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = 220A886319A58D179758BB0B4B1E63DE /* JXAVideoConstant.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,60 +85,57 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		052B5D78E3BEB589DFD6C1D724A09121 /* JXAVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXAVideoView.h; path = JXVideoAds/Classes/API/JXAVideoView.h; sourceTree = "<group>"; };
-		088ED923C63EABC1C510E47536653C48 /* JXAVideoParamsBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXAVideoParamsBuilder.h; path = JXVideoAds/Classes/API/JXAVideoParamsBuilder.h; sourceTree = "<group>"; };
-		0C30A749694FCF0D64871B468142EC70 /* JXASettings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXASettings.m; path = JXVideoAds/Classes/GoogleIma/JXASettings.m; sourceTree = "<group>"; };
-		12D4C90759EC805F6D67E923C5CE8D7D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		13E642792727CCA1F903B73D099B1510 /* JXAVideoTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXAVideoTool.m; path = JXVideoAds/Classes/Common/JXAVideoTool.m; sourceTree = "<group>"; };
-		156BECBAEE2101305B9BB8648C0E46A3 /* JXAPictureInPictureProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXAPictureInPictureProxy.m; path = JXVideoAds/Classes/GoogleIma/JXAPictureInPictureProxy.m; sourceTree = "<group>"; };
-		15E6FB46C953B0E71D51097508C53069 /* JXAAdDisplayContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXAAdDisplayContainer.m; path = JXVideoAds/Classes/GoogleIma/JXAAdDisplayContainer.m; sourceTree = "<group>"; };
-		1AB2823B915E5F500CF76139BAD8A3C8 /* JXACompanionAdSlot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXACompanionAdSlot.h; path = JXVideoAds/Classes/GoogleIma/JXACompanionAdSlot.h; sourceTree = "<group>"; };
-		1C2C192E46439B0EFFC50A3E7363AE64 /* JXAVideoAds.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXAVideoAds.m; path = JXVideoAds/Classes/Common/JXAVideoAds.m; sourceTree = "<group>"; };
-		26FADDFD462B90218494841F3BFA05E2 /* JXASettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXASettings.h; path = JXVideoAds/Classes/GoogleIma/JXASettings.h; sourceTree = "<group>"; };
-		29DB9CC150845A92FDE1F17064027489 /* JXAPictureInPictureProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXAPictureInPictureProxy.h; path = JXVideoAds/Classes/GoogleIma/JXAPictureInPictureProxy.h; sourceTree = "<group>"; };
-		2D323A79AD15F6B41FBE9435A5AEA69C /* JXAAdsRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXAAdsRequest.m; path = JXVideoAds/Classes/GoogleIma/JXAAdsRequest.m; sourceTree = "<group>"; };
-		331A5D9D3AF69C123F1CEC531EAAF9B3 /* GoogleAds-IMA-iOS-SDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "GoogleAds-IMA-iOS-SDK.xcconfig"; sourceTree = "<group>"; };
+		040F71E07B1F9D09ECED64C560525BC0 /* JXVideoAds.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXVideoAds.xcconfig; sourceTree = "<group>"; };
+		11A0D007AC3D05A80EF5FF8F81549F30 /* JXAAVPlayerVideoDisplay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXAAVPlayerVideoDisplay.m; path = JXVideoAds/Classes/GoogleIma/JXAAVPlayerVideoDisplay.m; sourceTree = "<group>"; };
+		1A2F5CB0F2AB3EE6B6AE32E0B5401155 /* JXAVideoAds+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JXAVideoAds+Extension.h"; path = "JXVideoAds/Classes/Common/JXAVideoAds+Extension.h"; sourceTree = "<group>"; };
+		220A886319A58D179758BB0B4B1E63DE /* JXAVideoConstant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXAVideoConstant.h; path = JXVideoAds/Classes/GoogleIma/JXAVideoConstant.h; sourceTree = "<group>"; };
+		261FF1F6895017298181A7370CE24443 /* JXAVideoAds+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JXAVideoAds+Extension.m"; path = "JXVideoAds/Classes/Common/JXAVideoAds+Extension.m"; sourceTree = "<group>"; };
+		26DF006DA8E359A7A510EE2E24EC9384 /* JXAGoogleImaApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXAGoogleImaApi.h; path = JXVideoAds/Classes/GoogleIma/JXAGoogleImaApi.h; sourceTree = "<group>"; };
+		303C5FE34977B07DB892B1AEE3FBA1FD /* JXAVideoOperator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXAVideoOperator.m; path = JXVideoAds/Classes/API/JXAVideoOperator.m; sourceTree = "<group>"; };
+		38316028FB9BDC826B24B27E0AB29F65 /* JXAVideoTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXAVideoTool.m; path = JXVideoAds/Classes/Common/JXAVideoTool.m; sourceTree = "<group>"; };
 		38CDE468E8B692EFA6B3B17F026D4511 /* Pods-JXVideoAds_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JXVideoAds_Example-dummy.m"; sourceTree = "<group>"; };
 		3952F74A3F7E21917C2AE7F1AD6DD46A /* libJXVideoAds.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJXVideoAds.a; path = libJXVideoAds.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DC02861539B20A554296BC4663604FD /* JXAAdDisplayContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXAAdDisplayContainer.h; path = JXVideoAds/Classes/GoogleIma/JXAAdDisplayContainer.h; sourceTree = "<group>"; };
-		4048B2A234C01E525D4758656BBFF3D1 /* JXAAdsRenderingSettings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXAAdsRenderingSettings.m; path = JXVideoAds/Classes/GoogleIma/JXAAdsRenderingSettings.m; sourceTree = "<group>"; };
+		3FA5CDA545D5EE85283797BB02B450F3 /* JXAAdsRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXAAdsRequest.h; path = JXVideoAds/Classes/GoogleIma/JXAAdsRequest.h; sourceTree = "<group>"; };
+		46179926BAD946C7638FB30EF0C60F55 /* JXAVideoParams.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXAVideoParams.m; path = JXVideoAds/Classes/Common/JXAVideoParams.m; sourceTree = "<group>"; };
 		481E9A37DF4FBADB6135267923C429BA /* Pods-JXVideoAds_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JXVideoAds_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		49218AB7ACC5B26F6EF7D918674EE5B7 /* JXAGoogleImaApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXAGoogleImaApi.h; path = JXVideoAds/Classes/GoogleIma/JXAGoogleImaApi.h; sourceTree = "<group>"; };
-		493C33CB599675C0C7864414420ECFAA /* JXACompanionAdSlot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXACompanionAdSlot.m; path = JXVideoAds/Classes/GoogleIma/JXACompanionAdSlot.m; sourceTree = "<group>"; };
-		4C47B75B4A029243CEDBD195EC54E3F4 /* JXVideoAds.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXVideoAds.xcconfig; sourceTree = "<group>"; };
-		587CABDED8EFF01CD275FEEBAE8D8B01 /* JXVideoAds-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXVideoAds-prefix.pch"; sourceTree = "<group>"; };
+		4A2CEA6D4FE92F19F2DF9C3AAAF71DAE /* JXACompanionAdSlot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXACompanionAdSlot.m; path = JXVideoAds/Classes/GoogleIma/JXACompanionAdSlot.m; sourceTree = "<group>"; };
+		4C563CE0C60CC2ABEF115188A6FE41FA /* JXAVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXAVideoView.h; path = JXVideoAds/Classes/API/JXAVideoView.h; sourceTree = "<group>"; };
+		4D19EF29D673ACBE901F24ADF965FB84 /* JXAVideoTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXAVideoTool.h; path = JXVideoAds/Classes/Common/JXAVideoTool.h; sourceTree = "<group>"; };
+		5A9F0E6BCF4AF6188686A32A23B34119 /* JXAAdsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXAAdsManager.h; path = JXVideoAds/Classes/GoogleIma/JXAAdsManager.h; sourceTree = "<group>"; };
+		5B842329763FAF4B355DC87FD15BBC83 /* JXAAdDisplayContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXAAdDisplayContainer.h; path = JXVideoAds/Classes/GoogleIma/JXAAdDisplayContainer.h; sourceTree = "<group>"; };
+		5BE6C9A013AD067A83FA0EF8439EB8B1 /* JXAAdDisplayContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXAAdDisplayContainer.m; path = JXVideoAds/Classes/GoogleIma/JXAAdDisplayContainer.m; sourceTree = "<group>"; };
+		5FBD1A881CD6928D9552C8F87939DD48 /* JXAAdsManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXAAdsManager.m; path = JXVideoAds/Classes/GoogleIma/JXAAdsManager.m; sourceTree = "<group>"; };
 		6249D334161A9D7A31700E432B1FDC75 /* Pods-JXVideoAds_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JXVideoAds_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		67D25E23F822E53119D9247ADFF1112F /* JXAAdsRenderingSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXAAdsRenderingSettings.h; path = JXVideoAds/Classes/GoogleIma/JXAAdsRenderingSettings.h; sourceTree = "<group>"; };
-		6CACBA4D529FFBFDDD2A5416DDD4654B /* JXAWebOpenerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXAWebOpenerDelegate.h; path = JXVideoAds/Classes/GoogleIma/JXAWebOpenerDelegate.h; sourceTree = "<group>"; };
+		67E937CBE0863C89393B349691DB27B4 /* JXAAdsLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXAAdsLoader.h; path = JXVideoAds/Classes/GoogleIma/JXAAdsLoader.h; sourceTree = "<group>"; };
 		705BC467402202F55DA734CA13B1CDBD /* Pods-JXVideoAds_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JXVideoAds_Example-frameworks.sh"; sourceTree = "<group>"; };
-		760CD4D60D0258CE52D22311226386B0 /* JXAVideoAds+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JXAVideoAds+Extension.h"; path = "JXVideoAds/Classes/Common/JXAVideoAds+Extension.h"; sourceTree = "<group>"; };
-		7EE380FBB0A73842B09627C6DE0B6AEE /* JXAAdsManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXAAdsManager.m; path = JXVideoAds/Classes/GoogleIma/JXAAdsManager.m; sourceTree = "<group>"; };
-		823B485160212AD973B027D496FFDCAC /* JXVideoAds.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JXVideoAds.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		83453681249AE90DD1BABFC2973A8ECC /* JXAVideoConstant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXAVideoConstant.h; path = JXVideoAds/Classes/GoogleIma/JXAVideoConstant.h; sourceTree = "<group>"; };
-		8688DD17338376D1AE91FB7CA9BA55AA /* JXAVideoAds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXAVideoAds.h; path = JXVideoAds/Classes/Common/JXAVideoAds.h; sourceTree = "<group>"; };
-		8F20628B4F2DC781A151825BA9DF0E43 /* JXAAVPlayerContentPlayhead.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXAAVPlayerContentPlayhead.m; path = JXVideoAds/Classes/GoogleIma/JXAAVPlayerContentPlayhead.m; sourceTree = "<group>"; };
-		914B8D4A3C0CC494E061F5A187A99711 /* JXAVideoParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXAVideoParams.h; path = JXVideoAds/Classes/Common/JXAVideoParams.h; sourceTree = "<group>"; };
-		9519E7EB1CC18D7FEAB4A255D3DE5B2B /* JXAAVPlayerContentPlayhead.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXAAVPlayerContentPlayhead.h; path = JXVideoAds/Classes/GoogleIma/JXAAVPlayerContentPlayhead.h; sourceTree = "<group>"; };
-		9957650E0C81587704F2F3EE48C0C09E /* JXAVideoOperator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXAVideoOperator.m; path = JXVideoAds/Classes/API/JXAVideoOperator.m; sourceTree = "<group>"; };
+		793F4DB7B98FB3BE241F9766EE183ECE /* JXAVideoOperator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXAVideoOperator.h; path = JXVideoAds/Classes/API/JXAVideoOperator.h; sourceTree = "<group>"; };
+		7D1759C4BCA84AA7CA294681BBA4A788 /* JXVideoAds-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JXVideoAds-dummy.m"; sourceTree = "<group>"; };
+		8983B497B208CCD507EB5F1B9564F84F /* JXAAVPlayerContentPlayhead.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXAAVPlayerContentPlayhead.m; path = JXVideoAds/Classes/GoogleIma/JXAAVPlayerContentPlayhead.m; sourceTree = "<group>"; };
+		8D1D1464B503D755FE957D5AC31EC3E1 /* JXAVideoAds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXAVideoAds.h; path = JXVideoAds/Classes/Common/JXAVideoAds.h; sourceTree = "<group>"; };
+		91477F1DDB10E3E773619B3AEF32483E /* JXACompanionAdSlot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXACompanionAdSlot.h; path = JXVideoAds/Classes/GoogleIma/JXACompanionAdSlot.h; sourceTree = "<group>"; };
 		9970421657E8BF8F324BC3AF924CA3E9 /* libPods-JXVideoAds_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-JXVideoAds_Example.a"; path = "libPods-JXVideoAds_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D71A46F46B913067D738EDFA8C07E61 /* JXAAdsLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXAAdsLoader.h; path = JXVideoAds/Classes/GoogleIma/JXAAdsLoader.h; sourceTree = "<group>"; };
+		9A4F914998A8CA33456811BBA3229607 /* JXAVideoView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXAVideoView.m; path = JXVideoAds/Classes/API/JXAVideoView.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FC2FBCE06319C2E9E6D0E2AB55F777A /* JXAAVPlayerVideoDisplay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXAAVPlayerVideoDisplay.h; path = JXVideoAds/Classes/GoogleIma/JXAAVPlayerVideoDisplay.h; sourceTree = "<group>"; };
-		A8177609262668EB5A6D8AABECB36EEA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		B0CE34DBC0582903CCCDCF85F6678D21 /* JXAVideoAds+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JXAVideoAds+Extension.m"; path = "JXVideoAds/Classes/Common/JXAVideoAds+Extension.m"; sourceTree = "<group>"; };
-		C2B2F81B3ED7DF0B511FFBBDCE20B20E /* JXVideoAds-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JXVideoAds-dummy.m"; sourceTree = "<group>"; };
+		9F1C58EFA65EF08C7B2A0F3131658BF8 /* JXASettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXASettings.h; path = JXVideoAds/Classes/GoogleIma/JXASettings.h; sourceTree = "<group>"; };
+		A1023C3FE0C8279255D1F62590119E15 /* JXAAVPlayerVideoDisplay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXAAVPlayerVideoDisplay.h; path = JXVideoAds/Classes/GoogleIma/JXAAVPlayerVideoDisplay.h; sourceTree = "<group>"; };
+		A14211D019791CA48584A7CF4735F2D1 /* JXAVideoParamsBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXAVideoParamsBuilder.m; path = JXVideoAds/Classes/API/JXAVideoParamsBuilder.m; sourceTree = "<group>"; };
+		A50DA085921B88C3C92E40C79F2880CB /* JXVideoAds-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXVideoAds-prefix.pch"; sourceTree = "<group>"; };
+		A7A3A277CADE4760F7A32EA758005BA8 /* JXAVideoParamsBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXAVideoParamsBuilder.h; path = JXVideoAds/Classes/API/JXAVideoParamsBuilder.h; sourceTree = "<group>"; };
+		A98B01C298BDA54959A64553222D0C4C /* JXAAdsLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXAAdsLoader.m; path = JXVideoAds/Classes/GoogleIma/JXAAdsLoader.m; sourceTree = "<group>"; };
+		B0E4CD99C47DB523F010EA24FD4878B9 /* JXAVideoParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXAVideoParams.h; path = JXVideoAds/Classes/Common/JXAVideoParams.h; sourceTree = "<group>"; };
+		B35FBB2DCA4B531025F9C78143649618 /* JXAPictureInPictureProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXAPictureInPictureProxy.m; path = JXVideoAds/Classes/GoogleIma/JXAPictureInPictureProxy.m; sourceTree = "<group>"; };
+		B62EFEF914FDABFEB219BD975BEE0945 /* JXAVideoAds.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXAVideoAds.m; path = JXVideoAds/Classes/Common/JXAVideoAds.m; sourceTree = "<group>"; };
+		BBEAA053532BD7565E2E0B66C8F906C5 /* JXAAdsRenderingSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXAAdsRenderingSettings.h; path = JXVideoAds/Classes/GoogleIma/JXAAdsRenderingSettings.h; sourceTree = "<group>"; };
+		C0B30FE2BF7CA38AF91F8CD6C2A6F334 /* GoogleInteractiveMediaAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInteractiveMediaAds.framework; path = GoogleInteractiveMediaAds/GoogleInteractiveMediaAds.framework; sourceTree = "<group>"; };
+		C32E8734DFC2C578A628B42B87FB3F52 /* JXASettings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXASettings.m; path = JXVideoAds/Classes/GoogleIma/JXASettings.m; sourceTree = "<group>"; };
 		C75FE045068975CC2EE85EC77BFEAC0E /* Pods-JXVideoAds_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXVideoAds_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C9916265C87F5C031B981B11B7271BC5 /* JXAVideoParams.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXAVideoParams.m; path = JXVideoAds/Classes/Common/JXAVideoParams.m; sourceTree = "<group>"; };
-		CC4E28F8F16EC75543780C359DBA78B1 /* JXAVideoParamsBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXAVideoParamsBuilder.m; path = JXVideoAds/Classes/API/JXAVideoParamsBuilder.m; sourceTree = "<group>"; };
-		CCEE3C7C542DE58A1F80AAC120B941BA /* JXAAdsLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXAAdsLoader.m; path = JXVideoAds/Classes/GoogleIma/JXAAdsLoader.m; sourceTree = "<group>"; };
+		CA78D5F771432B08945379381E20A328 /* JXAPictureInPictureProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXAPictureInPictureProxy.h; path = JXVideoAds/Classes/GoogleIma/JXAPictureInPictureProxy.h; sourceTree = "<group>"; };
 		D19235E238D2F3D3177C41639FC87E79 /* Pods-JXVideoAds_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXVideoAds_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D329B27BC14615D5906C32B9203AD42B /* JXAAdsRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXAAdsRequest.h; path = JXVideoAds/Classes/GoogleIma/JXAAdsRequest.h; sourceTree = "<group>"; };
-		D709B432C3104776867C8436460B813E /* JXAVideoView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXAVideoView.m; path = JXVideoAds/Classes/API/JXAVideoView.m; sourceTree = "<group>"; };
-		D8CED4C1A322F990D6A09C1376C2F05C /* JXAAdsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXAAdsManager.h; path = JXVideoAds/Classes/GoogleIma/JXAAdsManager.h; sourceTree = "<group>"; };
-		DB8C93388310CE786FA3A0014EA10560 /* JXAAVPlayerVideoDisplay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXAAVPlayerVideoDisplay.m; path = JXVideoAds/Classes/GoogleIma/JXAAVPlayerVideoDisplay.m; sourceTree = "<group>"; };
-		EC7198A66E747011737F9BB6CF16A116 /* GoogleInteractiveMediaAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInteractiveMediaAds.framework; path = GoogleInteractiveMediaAds/GoogleInteractiveMediaAds.framework; sourceTree = "<group>"; };
-		FBC7F041715B405E4AB17DA70F8C6DB5 /* JXAVideoOperator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXAVideoOperator.h; path = JXVideoAds/Classes/API/JXAVideoOperator.h; sourceTree = "<group>"; };
-		FD9466C0D826A08377087AB10EDAFE99 /* JXAVideoTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXAVideoTool.h; path = JXVideoAds/Classes/Common/JXAVideoTool.h; sourceTree = "<group>"; };
+		DEC3A8484A6F4581382BF9DEF03E3F5C /* GoogleAds-IMA-iOS-SDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "GoogleAds-IMA-iOS-SDK.xcconfig"; sourceTree = "<group>"; };
+		E1CAB9BEFCD7AD546B4DA145CF2D0C3E /* JXAAVPlayerContentPlayhead.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXAAVPlayerContentPlayhead.h; path = JXVideoAds/Classes/GoogleIma/JXAAVPlayerContentPlayhead.h; sourceTree = "<group>"; };
+		EFF9006E3A66DAE2756E3FA5E3180655 /* JXAAdsRenderingSettings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXAAdsRenderingSettings.m; path = JXVideoAds/Classes/GoogleIma/JXAAdsRenderingSettings.m; sourceTree = "<group>"; };
+		F0BE3DC844D639498A369ECD684A2C40 /* JXAAdsRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXAAdsRequest.m; path = JXVideoAds/Classes/GoogleIma/JXAAdsRequest.m; sourceTree = "<group>"; };
+		F1C8FEEC919C006FB85CEDDD12EA94F9 /* JXAWebOpenerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXAWebOpenerDelegate.h; path = JXVideoAds/Classes/GoogleIma/JXAWebOpenerDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,26 +156,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1929C3B4A359595EEF132E2D6852ED4D /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				823B485160212AD973B027D496FFDCAC /* JXVideoAds.podspec */,
-				12D4C90759EC805F6D67E923C5CE8D7D /* LICENSE */,
-				A8177609262668EB5A6D8AABECB36EEA /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		1CAEC71536FEC401EE32DDA34E5209F9 /* GoogleAds-IMA-iOS-SDK */ = {
-			isa = PBXGroup;
-			children = (
-				D6BB77DA439FA47EE8CD07A23B2E5AF7 /* Frameworks */,
-				D4CBEA35F9235570D774579B7D925FCA /* Support Files */,
-			);
-			name = "GoogleAds-IMA-iOS-SDK";
-			path = "GoogleAds-IMA-iOS-SDK";
-			sourceTree = "<group>";
-		};
 		2C2246D52C364DD2438B8F4A5212696C /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,17 +179,31 @@
 			path = "Target Support Files/Pods-JXVideoAds_Example";
 			sourceTree = "<group>";
 		};
-		75E3DE6F0B830AF8651F4E95A4DD97ED /* API */ = {
+		2EFAF69FF8A6E34E9C6000D56A514041 /* GoogleAds-IMA-iOS-SDK */ = {
 			isa = PBXGroup;
 			children = (
-				FBC7F041715B405E4AB17DA70F8C6DB5 /* JXAVideoOperator.h */,
-				9957650E0C81587704F2F3EE48C0C09E /* JXAVideoOperator.m */,
-				088ED923C63EABC1C510E47536653C48 /* JXAVideoParamsBuilder.h */,
-				CC4E28F8F16EC75543780C359DBA78B1 /* JXAVideoParamsBuilder.m */,
-				052B5D78E3BEB589DFD6C1D724A09121 /* JXAVideoView.h */,
-				D709B432C3104776867C8436460B813E /* JXAVideoView.m */,
+				74A58EEF97321FAD917E85E1CF7831C4 /* Frameworks */,
+				318C4FAA601ECBBA0143D4CFD55579BD /* Support Files */,
 			);
-			name = API;
+			name = "GoogleAds-IMA-iOS-SDK";
+			path = "GoogleAds-IMA-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		318C4FAA601ECBBA0143D4CFD55579BD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEC3A8484A6F4581382BF9DEF03E3F5C /* GoogleAds-IMA-iOS-SDK.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleAds-IMA-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		74A58EEF97321FAD917E85E1CF7831C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0B30FE2BF7CA38AF91F8CD6C2A6F334 /* GoogleInteractiveMediaAds.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		77E2A2794E87D5F03575CC4EA010F39A /* Targets Support Files */ = {
@@ -223,118 +214,77 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7E6091170C550DF870C7AE01D7692D1D /* Common */ = {
+		8609AE14066090C5C141557012D11B21 /* JXVideoAds */ = {
 			isa = PBXGroup;
 			children = (
-				8688DD17338376D1AE91FB7CA9BA55AA /* JXAVideoAds.h */,
-				1C2C192E46439B0EFFC50A3E7363AE64 /* JXAVideoAds.m */,
-				760CD4D60D0258CE52D22311226386B0 /* JXAVideoAds+Extension.h */,
-				B0CE34DBC0582903CCCDCF85F6678D21 /* JXAVideoAds+Extension.m */,
-				914B8D4A3C0CC494E061F5A187A99711 /* JXAVideoParams.h */,
-				C9916265C87F5C031B981B11B7271BC5 /* JXAVideoParams.m */,
-				FD9466C0D826A08377087AB10EDAFE99 /* JXAVideoTool.h */,
-				13E642792727CCA1F903B73D099B1510 /* JXAVideoTool.m */,
-			);
-			name = Common;
-			sourceTree = "<group>";
-		};
-		7E904AC52A0CFAFCF97AA297ACAC9D8C /* JXVideoAds */ = {
-			isa = PBXGroup;
-			children = (
-				75E3DE6F0B830AF8651F4E95A4DD97ED /* API */,
-				7E6091170C550DF870C7AE01D7692D1D /* Common */,
-				CEA5DC142C4B123B6A90A52451D51B5C /* GoogleIma */,
-				1929C3B4A359595EEF132E2D6852ED4D /* Pod */,
-				96EAF1C66F656065A74859D03B16F5F6 /* Support Files */,
+				E143B25FA931F031AB3F5A274EA767AC /* API */,
+				EE70C1FFC7D5B47BAFE8B49D0C1471E6 /* Common */,
+				BD17A4C492853809A88C72B4D2CFA431 /* GoogleIma */,
+				ADBE9813BDCC62A4F512173EDDDC02AF /* Support Files */,
 			);
 			name = JXVideoAds;
-			path = ../..;
+			path = JXVideoAds;
 			sourceTree = "<group>";
 		};
-		842A7CA93D1FDCD5541AB40B91B07508 /* Pods */ = {
+		ADBE9813BDCC62A4F512173EDDDC02AF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1CAEC71536FEC401EE32DDA34E5209F9 /* GoogleAds-IMA-iOS-SDK */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		96EAF1C66F656065A74859D03B16F5F6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4C47B75B4A029243CEDBD195EC54E3F4 /* JXVideoAds.xcconfig */,
-				C2B2F81B3ED7DF0B511FFBBDCE20B20E /* JXVideoAds-dummy.m */,
-				587CABDED8EFF01CD275FEEBAE8D8B01 /* JXVideoAds-prefix.pch */,
+				040F71E07B1F9D09ECED64C560525BC0 /* JXVideoAds.xcconfig */,
+				7D1759C4BCA84AA7CA294681BBA4A788 /* JXVideoAds-dummy.m */,
+				A50DA085921B88C3C92E40C79F2880CB /* JXVideoAds-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JXVideoAds";
+			path = "../Target Support Files/JXVideoAds";
 			sourceTree = "<group>";
 		};
-		C3AC511D46536C0036CEBD6A3B2FC945 /* Development Pods */ = {
+		BD17A4C492853809A88C72B4D2CFA431 /* GoogleIma */ = {
 			isa = PBXGroup;
 			children = (
-				7E904AC52A0CFAFCF97AA297ACAC9D8C /* JXVideoAds */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		CEA5DC142C4B123B6A90A52451D51B5C /* GoogleIma */ = {
-			isa = PBXGroup;
-			children = (
-				3DC02861539B20A554296BC4663604FD /* JXAAdDisplayContainer.h */,
-				15E6FB46C953B0E71D51097508C53069 /* JXAAdDisplayContainer.m */,
-				9D71A46F46B913067D738EDFA8C07E61 /* JXAAdsLoader.h */,
-				CCEE3C7C542DE58A1F80AAC120B941BA /* JXAAdsLoader.m */,
-				D8CED4C1A322F990D6A09C1376C2F05C /* JXAAdsManager.h */,
-				7EE380FBB0A73842B09627C6DE0B6AEE /* JXAAdsManager.m */,
-				67D25E23F822E53119D9247ADFF1112F /* JXAAdsRenderingSettings.h */,
-				4048B2A234C01E525D4758656BBFF3D1 /* JXAAdsRenderingSettings.m */,
-				D329B27BC14615D5906C32B9203AD42B /* JXAAdsRequest.h */,
-				2D323A79AD15F6B41FBE9435A5AEA69C /* JXAAdsRequest.m */,
-				9519E7EB1CC18D7FEAB4A255D3DE5B2B /* JXAAVPlayerContentPlayhead.h */,
-				8F20628B4F2DC781A151825BA9DF0E43 /* JXAAVPlayerContentPlayhead.m */,
-				9FC2FBCE06319C2E9E6D0E2AB55F777A /* JXAAVPlayerVideoDisplay.h */,
-				DB8C93388310CE786FA3A0014EA10560 /* JXAAVPlayerVideoDisplay.m */,
-				1AB2823B915E5F500CF76139BAD8A3C8 /* JXACompanionAdSlot.h */,
-				493C33CB599675C0C7864414420ECFAA /* JXACompanionAdSlot.m */,
-				49218AB7ACC5B26F6EF7D918674EE5B7 /* JXAGoogleImaApi.h */,
-				29DB9CC150845A92FDE1F17064027489 /* JXAPictureInPictureProxy.h */,
-				156BECBAEE2101305B9BB8648C0E46A3 /* JXAPictureInPictureProxy.m */,
-				26FADDFD462B90218494841F3BFA05E2 /* JXASettings.h */,
-				0C30A749694FCF0D64871B468142EC70 /* JXASettings.m */,
-				83453681249AE90DD1BABFC2973A8ECC /* JXAVideoConstant.h */,
-				6CACBA4D529FFBFDDD2A5416DDD4654B /* JXAWebOpenerDelegate.h */,
+				5B842329763FAF4B355DC87FD15BBC83 /* JXAAdDisplayContainer.h */,
+				5BE6C9A013AD067A83FA0EF8439EB8B1 /* JXAAdDisplayContainer.m */,
+				67E937CBE0863C89393B349691DB27B4 /* JXAAdsLoader.h */,
+				A98B01C298BDA54959A64553222D0C4C /* JXAAdsLoader.m */,
+				5A9F0E6BCF4AF6188686A32A23B34119 /* JXAAdsManager.h */,
+				5FBD1A881CD6928D9552C8F87939DD48 /* JXAAdsManager.m */,
+				BBEAA053532BD7565E2E0B66C8F906C5 /* JXAAdsRenderingSettings.h */,
+				EFF9006E3A66DAE2756E3FA5E3180655 /* JXAAdsRenderingSettings.m */,
+				3FA5CDA545D5EE85283797BB02B450F3 /* JXAAdsRequest.h */,
+				F0BE3DC844D639498A369ECD684A2C40 /* JXAAdsRequest.m */,
+				E1CAB9BEFCD7AD546B4DA145CF2D0C3E /* JXAAVPlayerContentPlayhead.h */,
+				8983B497B208CCD507EB5F1B9564F84F /* JXAAVPlayerContentPlayhead.m */,
+				A1023C3FE0C8279255D1F62590119E15 /* JXAAVPlayerVideoDisplay.h */,
+				11A0D007AC3D05A80EF5FF8F81549F30 /* JXAAVPlayerVideoDisplay.m */,
+				91477F1DDB10E3E773619B3AEF32483E /* JXACompanionAdSlot.h */,
+				4A2CEA6D4FE92F19F2DF9C3AAAF71DAE /* JXACompanionAdSlot.m */,
+				26DF006DA8E359A7A510EE2E24EC9384 /* JXAGoogleImaApi.h */,
+				CA78D5F771432B08945379381E20A328 /* JXAPictureInPictureProxy.h */,
+				B35FBB2DCA4B531025F9C78143649618 /* JXAPictureInPictureProxy.m */,
+				9F1C58EFA65EF08C7B2A0F3131658BF8 /* JXASettings.h */,
+				C32E8734DFC2C578A628B42B87FB3F52 /* JXASettings.m */,
+				220A886319A58D179758BB0B4B1E63DE /* JXAVideoConstant.h */,
+				F1C8FEEC919C006FB85CEDDD12EA94F9 /* JXAWebOpenerDelegate.h */,
 			);
 			name = GoogleIma;
+			sourceTree = "<group>";
+		};
+		C711F46E11A64C9CAE843599B42BCE96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EFAF69FF8A6E34E9C6000D56A514041 /* GoogleAds-IMA-iOS-SDK */,
+				8609AE14066090C5C141557012D11B21 /* JXVideoAds */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				C3AC511D46536C0036CEBD6A3B2FC945 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				842A7CA93D1FDCD5541AB40B91B07508 /* Pods */,
+				C711F46E11A64C9CAE843599B42BCE96 /* Pods */,
 				2C2246D52C364DD2438B8F4A5212696C /* Products */,
 				77E2A2794E87D5F03575CC4EA010F39A /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D4CBEA35F9235570D774579B7D925FCA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				331A5D9D3AF69C123F1CEC531EAAF9B3 /* GoogleAds-IMA-iOS-SDK.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/GoogleAds-IMA-iOS-SDK";
-			sourceTree = "<group>";
-		};
-		D6BB77DA439FA47EE8CD07A23B2E5AF7 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				EC7198A66E747011737F9BB6CF16A116 /* GoogleInteractiveMediaAds.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
@@ -342,6 +292,34 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E143B25FA931F031AB3F5A274EA767AC /* API */ = {
+			isa = PBXGroup;
+			children = (
+				793F4DB7B98FB3BE241F9766EE183ECE /* JXAVideoOperator.h */,
+				303C5FE34977B07DB892B1AEE3FBA1FD /* JXAVideoOperator.m */,
+				A7A3A277CADE4760F7A32EA758005BA8 /* JXAVideoParamsBuilder.h */,
+				A14211D019791CA48584A7CF4735F2D1 /* JXAVideoParamsBuilder.m */,
+				4C563CE0C60CC2ABEF115188A6FE41FA /* JXAVideoView.h */,
+				9A4F914998A8CA33456811BBA3229607 /* JXAVideoView.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		EE70C1FFC7D5B47BAFE8B49D0C1471E6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8D1D1464B503D755FE957D5AC31EC3E1 /* JXAVideoAds.h */,
+				B62EFEF914FDABFEB219BD975BEE0945 /* JXAVideoAds.m */,
+				1A2F5CB0F2AB3EE6B6AE32E0B5401155 /* JXAVideoAds+Extension.h */,
+				261FF1F6895017298181A7370CE24443 /* JXAVideoAds+Extension.m */,
+				B0E4CD99C47DB523F010EA24FD4878B9 /* JXAVideoParams.h */,
+				46179926BAD946C7638FB30EF0C60F55 /* JXAVideoParams.m */,
+				4D19EF29D673ACBE901F24ADF965FB84 /* JXAVideoTool.h */,
+				38316028FB9BDC826B24B27E0AB29F65 /* JXAVideoTool.m */,
+			);
+			name = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -569,7 +547,7 @@
 		};
 		25639EA812D17C92A4A33B6A46524348 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C47B75B4A029243CEDBD195EC54E3F4 /* JXVideoAds.xcconfig */;
+			baseConfigurationReference = 040F71E07B1F9D09ECED64C560525BC0 /* JXVideoAds.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -658,7 +636,7 @@
 		};
 		57A4A1CB3E286B6FBE18DCD652F92370 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 331A5D9D3AF69C123F1CEC531EAAF9B3 /* GoogleAds-IMA-iOS-SDK.xcconfig */;
+			baseConfigurationReference = DEC3A8484A6F4581382BF9DEF03E3F5C /* GoogleAds-IMA-iOS-SDK.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -672,7 +650,7 @@
 		};
 		9AFD3AAB6B6FFEA8B01ACF41D9F1FA45 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C47B75B4A029243CEDBD195EC54E3F4 /* JXVideoAds.xcconfig */;
+			baseConfigurationReference = 040F71E07B1F9D09ECED64C560525BC0 /* JXVideoAds.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -739,7 +717,7 @@
 		};
 		D3E6FA574CD35CD4A675D40C42B15984 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 331A5D9D3AF69C123F1CEC531EAAF9B3 /* GoogleAds-IMA-iOS-SDK.xcconfig */;
+			baseConfigurationReference = DEC3A8484A6F4581382BF9DEF03E3F5C /* GoogleAds-IMA-iOS-SDK.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
