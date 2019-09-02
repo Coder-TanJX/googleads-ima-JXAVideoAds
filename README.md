@@ -7,7 +7,7 @@
 
 
 
-#  GoogleAds-IMA-iOS-SDK 二次封装
+#  GoogleAds-IMA-iOS-SDK 二次封装框架
 
 ---
 
@@ -26,23 +26,11 @@
 * 管理平台,官网文档都需要vpn才能浏览. 
 * GoogleAds-IMA-iOS-SDK只提供了视频广告功能, 如果要实现横幅广告/插页式广告/原生广告/激励广告可以使用Google-Mobile-Ads-SDK, 后边的文章会介绍
 * 开源框架：[github地址](https://github.com/Code-TanJX/googleads-ima-JXAVideoAds)
-* 谷歌视频广告SDK介绍： [iOS视频广告(一) GoogleAds-IMA-iOS-SDK](https://blog.csdn.net/TanJiaXiang/article/details/94549459)
+* 谷歌视频广告SDK介绍： [iOS视频广告(一) GoogleAds-IMA-iOS-SDK](https://blog.csdn.net/TanJiaXiang/article/details/94432972)
 
 &nbsp;
 
 （如果使用有什么问题，可以给我留言，欢迎一起学习，欢迎github-star, 点赞）
-
----
-
-
-##### 为什么要封装SDK: 
-* 虽说可以直接使用谷歌的SDK写进项目中, 但是实现起来还是小复杂, 需要踩的坑还是有点多. (比如调用顺序变换可能会导致广告播不出来)
-* 提供给开发者加载广告接口不止一个，没接触过谷歌SDK, 挨个看,测试浪费精力。
-* 使用起来代码看起来会有些乱, 耦合性高, 不方便后期的维护, 而且需要处理的代理回调方法稍微有些小麻烦。
-
-&nbsp;
-
-不多说废话, 直接给大家讲讲 [**JXVideoAds**](https://github.com/Code-TanJX/googleads-ima-JXAVideoAds) 如何使用, 帮助大家快速用起来。
 
 ---
 
@@ -135,44 +123,44 @@ end
 // 加载广告
 
 - (IBAction)params:(id)sender {
-[self.containerView params:^JXAVideoParamsBuilder *(JXAVideoParamsBuilder *paramsBuilder) {
-return  paramsBuilder
-.autoPlayAdBreaks(YES)
-.adTagUrl(tag);
-} state:^(JXAVideoAdsState state, JXAVideoAds *video) {
-switch (state) {
+    [self.containerView params:^JXAVideoParamsBuilder *(JXAVideoParamsBuilder *paramsBuilder) {
+        return  paramsBuilder
+        .autoPlayAdBreaks(YES)
+        .adTagUrl(tag);
+        } state:^(JXAVideoAdsState state, JXAVideoAds *video) {
+        switch (state) {
 
-case JXAVideoAdsState_Loaded:
-NSLog(@"已经加载完毕 - JXAVideoAdsState_Loaded");
-//                [video play];
-break;
+            case JXAVideoAdsState_Loaded:
+            NSLog(@"已经加载完毕 - JXAVideoAdsState_Loaded");
+            //                [video play];
+            break;
 
-case JXAVideoAdsState_Started:
-NSLog(@"已经开始播放广告 - JXAVideoAdsState_Started");
-break;
-case JXAVideoAdsState_Error:
-NSLog(@"加载错误 - JXAVideoAdsState_Error");
-break;
-case JXAVideoAdsState_Pause:
-NSLog(@"广告暂停 - JXAVideoAdsState_Pause");
-break;
-case JXAVideoAdsState_Ended:
-NSLog(@"广告播放结束 - JXAVideoAdsState_Ended");
-break;
-case JXAVideoAdsState_Skipped:
-NSLog(@"广告已经跳过 - JXAVideoAdsState_Skipped");
-break;
+            case JXAVideoAdsState_Started:
+            NSLog(@"已经开始播放广告 - JXAVideoAdsState_Started");
+            break;
+            case JXAVideoAdsState_Error:
+            NSLog(@"加载错误 - JXAVideoAdsState_Error");
+            break;
+            case JXAVideoAdsState_Pause:
+            NSLog(@"广告暂停 - JXAVideoAdsState_Pause");
+            break;
+            case JXAVideoAdsState_Ended:
+            NSLog(@"广告播放结束 - JXAVideoAdsState_Ended");
+            break;
+            case JXAVideoAdsState_Skipped:
+            NSLog(@"广告已经跳过 - JXAVideoAdsState_Skipped");
+            break;
 
-default:
-break;
-}
-}];
+        default:
+        break;
+        }
+    }];
 }
 
 // 不使用时，最好销毁。
 - (void)viewDidDisappear:(BOOL)animated {
-[super viewDidDisappear:animated];
-[self.containerView remove];
+    [super viewDidDisappear:animated];
+    [self.containerView remove];
 }
 
 ```
@@ -190,55 +178,55 @@ break;
 
 - (IBAction)paramsP:(id)sender {
 
-[self.containerView params:^JXAVideoParamsBuilder *(JXAVideoParamsBuilder *paramsBuilder) {
-return  paramsBuilder
-.autoPlayAdBreaks(YES)
-.language(@"en")
-.enableBackgroundPlayback(YES)
-.volume(@1)
-.adTagUrl(tagOne)
-.userContext(nil)
-.player(nil)
-.mimeTypes(@[ @"video/mp4", @"application/x-mpegURL"])
-.bitrate(1024)
-.webOpenerPresentingController([JXViewController new])
-.webOpenerDelegate(self);
-} state:^(JXAVideoAdsState state, JXAVideoAds *video) {
-switch (state) {
+    [self.containerView params:^JXAVideoParamsBuilder *(JXAVideoParamsBuilder *paramsBuilder) {
+        return  paramsBuilder
+        .autoPlayAdBreaks(YES)
+        .language(@"en")
+        .enableBackgroundPlayback(YES)
+        .volume(@1)
+        .adTagUrl(tagOne)
+        .userContext(nil)
+        .player(nil)
+        .mimeTypes(@[ @"video/mp4", @"application/x-mpegURL"])
+        .bitrate(1024)
+        .webOpenerPresentingController([JXViewController new])
+        .webOpenerDelegate(self);
+    } state:^(JXAVideoAdsState state, JXAVideoAds *video) {
+        switch (state) {
 
-case JXAVideoAdsState_Loaded:
-NSLog(@"已经加载完毕 - JXAVideoAdsState_Loaded");
-[video play];
-break;
+        case JXAVideoAdsState_Loaded:
+        NSLog(@"已经加载完毕 - JXAVideoAdsState_Loaded");
+        [video play];
+        break;
 
-case JXAVideoAdsState_Started:
-NSLog(@"已经开始播放广告 - JXAVideoAdsState_Started");
-break;
-case JXAVideoAdsState_Error:
-NSLog(@"加载错误 - JXAVideoAdsState_Error");
-break;
-case JXAVideoAdsState_Pause:
-NSLog(@"广告暂停 - JXAVideoAdsState_Pause");
-break;
-case JXAVideoAdsState_Ended:
-NSLog(@"广告播放结束 - JXAVideoAdsState_Ended");
-break;
-case JXAVideoAdsState_Skipped:
-NSLog(@"广告已经跳过 - JXAVideoAdsState_Skipped");
-break;
+        case JXAVideoAdsState_Started:
+        NSLog(@"已经开始播放广告 - JXAVideoAdsState_Started");
+        break;
+        case JXAVideoAdsState_Error:
+        NSLog(@"加载错误 - JXAVideoAdsState_Error");
+        break;
+        case JXAVideoAdsState_Pause:
+        NSLog(@"广告暂停 - JXAVideoAdsState_Pause");
+        break;
+        case JXAVideoAdsState_Ended:
+        NSLog(@"广告播放结束 - JXAVideoAdsState_Ended");
+        break;
+        case JXAVideoAdsState_Skipped:
+        NSLog(@"广告已经跳过 - JXAVideoAdsState_Skipped");
+        break;
 
-default:
-break;
-}
-} progress:^(CGFloat current, CGFloat duration) {
-NSLog(@"currentTime -- %f \n duration -- %f", current, duration);
-}];
+        default:
+        break;
+        }
+    } progress:^(CGFloat current, CGFloat duration) {
+        NSLog(@"currentTime -- %f \n duration -- %f", current, duration);
+    }];
 }
 
 // 不使用时，最好销毁。
 - (void)viewDidDisappear:(BOOL)animated {
-[super viewDidDisappear:animated];
-[self.containerView remove];
+    [super viewDidDisappear:animated];
+    [self.containerView remove];
 }
 
 
@@ -263,39 +251,39 @@ NSLog(@"currentTime -- %f \n duration -- %f", current, duration);
 
 - (IBAction)mNormal:(id)sender {
 
-self.operator = [[JXAVideoOperator alloc]
-initWithTagUrl:tagOne
-containerView:self.containerView
-userContext:nil
-state:^(JXAVideoAdsState state,
-JXAVideoAds *video) {
-switch (state) {
+    self.operator = [[JXAVideoOperator alloc]
+        initWithTagUrl:tagOne
+        containerView:self.containerView
+        userContext:nil
+        state:^(JXAVideoAdsState state,
+        JXAVideoAds *video) {
+            switch (state) {
 
-case JXAVideoAdsState_Loaded:
-NSLog(@"广告加载完毕 - JXAVideoAdsState_Loaded");
-[video play];
-break;
+            case JXAVideoAdsState_Loaded:
+            NSLog(@"广告加载完毕 - JXAVideoAdsState_Loaded");
+            [video play];
+            break;
 
-case JXAVideoAdsState_Started:
-NSLog(@"已经开始播放广告 - JXAVideoAdsState_Started");
-break;
-case JXAVideoAdsState_Error:
-NSLog(@"加载错误 - JXAVideoAdsState_Error");
-break;
-case JXAVideoAdsState_Pause:
-NSLog(@"广告暂停 - JXAVideoAdsState_Pause");
-break;
-case JXAVideoAdsState_Ended:
-NSLog(@"广告播放结束 - JXAVideoAdsState_Ended");
-break;
-case JXAVideoAdsState_Skipped:
-NSLog(@"广告已经跳过 - JXAVideoAdsState_Skipped");
-break;
+            case JXAVideoAdsState_Started:
+            NSLog(@"已经开始播放广告 - JXAVideoAdsState_Started");
+            break;
+            case JXAVideoAdsState_Error:    
+            NSLog(@"加载错误 - JXAVideoAdsState_Error");
+            break;
+            case JXAVideoAdsState_Pause:
+            NSLog(@"广告暂停 - JXAVideoAdsState_Pause");
+            break;
+            case JXAVideoAdsState_Ended:
+            NSLog(@"广告播放结束 - JXAVideoAdsState_Ended");
+            break;
+            case JXAVideoAdsState_Skipped:
+            NSLog(@"广告已经跳过 - JXAVideoAdsState_Skipped");
+            break;
 
-default:
-break;
-}
-}];
+            default:
+            break;
+            }
+    }];
 }
 ...
 
@@ -304,8 +292,8 @@ break;
 ```
 
 - (void)viewDidDisappear:(BOOL)animated {
-[super viewDidDisappear:animated];
-[self.operator remove];
+    [super viewDidDisappear:animated];
+    [self.operator remove];
 }
 
 ```
